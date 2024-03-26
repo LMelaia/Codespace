@@ -15,6 +15,6 @@ int main(void) {
     char * test4 = "AAAAAAAAAAAAAAAAAAAAAAAAAAAA BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB";
 
     for(int i = 0; i < 1000000; i++) {
-        printf("%i, ", test[i]);
+        printf("%c, ", test[i]);
     }
 }
